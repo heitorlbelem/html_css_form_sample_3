@@ -192,6 +192,10 @@ legend {
   background-position: 50%;
 }
 
+.checkbox-wrapper input:focus + label::before {
+  outline: 1px solid;
+}
+
 .col-3 {
   display: flex;
 }
